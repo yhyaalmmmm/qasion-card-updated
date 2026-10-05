@@ -1,0 +1,16 @@
+{
+  "name": "qasion-card-v10-secure-auth",
+  "version": "10.1.0",
+  "private": true,
+  "description": "QASION CARD V10 with Gmail OTP, custom recovery, CAPTCHA and Supabase security",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "test:mail": "node scripts/test-mail.js",
+    "test:products": "node scripts/test-products.js",
+    "test:admin": "node scripts/selftest.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
